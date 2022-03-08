@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
 
+:root {
+  $medium: 900px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +13,10 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+}
+
+@media only screen and (max-width: $medium) {
+  font-size: 50%;
 }
 
 body {
